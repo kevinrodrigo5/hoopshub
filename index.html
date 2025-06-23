@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bienvenido a HoopsHub. Todo para los amantes del baloncesto." />
+  <meta name="author" content="HoopsHub Team" />
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>HoopsHub | Inicio</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="logo-svg" width="60" height="60">
+        <circle cx="100" cy="100" r="80" fill="#FFA500">
+          <animate attributeName="r" values="80;90;80" dur="2s" repeatCount="indefinite" />
+        </circle>
+        <line x1="20" y1="100" x2="180" y2="100" stroke="#000" stroke-width="5">
+          <animate attributeName="x1" values="20;25;20" dur="2s" repeatCount="indefinite" />
+        </line>
+        <line x1="100" y1="20" x2="100" y2="180" stroke="#000" stroke-width="5">
+          <animate attributeName="y1" values="20;25;20" dur="2s" repeatCount="indefinite" />
+        </line>
+      </svg>
+      <h1>HoopsHub</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="products.html">Productos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="featured-product">
+      <h2>Bienvenido a HoopsHub</h2>
+      <p>Tu tienda favorita para productos de baloncesto. Explora nuestra colección y encuentra todo lo que necesitas para brillar en la cancha.</p>
+      <img src="images/istockphoto-1283974619-612x612.jpg" alt="Jugador de baloncesto" style="max-width: 100%; border-radius: 12px;">
+    </section>
+
+    <section class="interactive-map">
+      <h2>Explora nuestras categorías</h2>
+      <img src="images/imagen_1_1523406939.jpg" alt="Mapa de cancha" usemap="#courtmap" style="max-width: 100%; border-radius: 12px;">
+      <map name="courtmap">
+        <area shape="rect" coords="20,30,120,130" href="products.html#balones" alt="Balones" />
+        <area shape="rect" coords="130,30,230,130" href="products.html#zapatillas" alt="Zapatillas" />
+      </map>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 HoopsHub - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
